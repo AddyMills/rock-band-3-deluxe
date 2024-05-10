@@ -696,6 +696,8 @@
 (os_bg3 "Original")
 (os_star_gold_fill_on "Gold Star Progress: ON")
 (os_star_gold_fill_off "Gold Star Progress: OFF")
+(os_star_gold_fill_on_desc "Show how close you are to gold stars!")
+(os_star_gold_fill_off_desc "Show how close you are to gold stars!")
 (os_none "[None]")
 (os_nobg_wii "Off")
 (os_yesbg "On")
@@ -4538,6 +4540,7 @@
 (mod_force_hopos_desc "Makes every note a HOPO")
 (mod_mirror_mode_desc "Lefty mode without being a lefty!")
 (mod_color_shuffle_desc "Randomizes the colors of gems!")
+(mod_gem_shuffle_desc "Completely random notes!")
 (os_reboot "Reboot Game")
 (os_reboot_desc "Completely reboot Rock Band 3 Deluxe.")
 (reboot_warning "Are you sure you want to reboot the game?")
@@ -4613,14 +4616,19 @@
    "A song with a woman as the vocalist")
 (play_a_show_community
    "A song from the community")
+(overshell_confirm_leaveashow
+   "Are you sure you want to leave Play a Show?\nYour setlist will be lost!")
 (dx_play_a_show_intro
    "Welcome to DX Play a Show!\n\nBegin by picking the opener song for your setlist.\nAfter the opener, your band will vote together,\ncrafting your setlist from a series of options.\n\nPro-Tip: Now is your chance to set filters via the [Select] button.")
-
-(play_one "vote 1.")
-(play_two "vote 2.")
-(play_three "vote 3.")
-(play_four "vote 4.")
-(play_five "vote 5.")
+(meta_now_playing
+   "<alt>Now Playing:</alt> %s")
+(press_to_play
+   "Press <alt>o</alt> to %s")
+(play_one "vote 1")
+(play_two "vote 2")
+(play_three "vote 3")
+(play_four "vote 4")
+(play_five "vote 5")
 (play_show "Play the show!")
 (mini_leaderboards_title_friends
    "Online Rankings")
